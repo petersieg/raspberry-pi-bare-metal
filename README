@@ -21,7 +21,7 @@ ports.
 BUILD
 
    You need the arm-none-eabi toolchain available from
-   https://launchpad.net/gcc-arm-embedded
+   https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
    Compile with:
 
