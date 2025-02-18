@@ -1,3 +1,8 @@
+Quick hack to make it compile with arm-none-eabi:
+#define uint int - in *.c files at top position.
+It compiles and runs now - only first screens played.
+Maybe better use unsigned int?
+
 INTRODUCTION
 
 Abbaye des Morts is a freeware game made by LocoMalito (with the help of Gryzor87 in music side) in 2010. 
