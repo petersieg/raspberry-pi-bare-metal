@@ -6,6 +6,8 @@
 #include "SDL_image.h"
 #include "SDL_mixer.h"
 
+#define uint int
+
 extern unsigned int _binary_graphics_gameover_png_start;
 extern unsigned int _binary_graphics_gameover_png_end;
 

@@ -7,6 +7,8 @@
 #include "SDL_mixer.h"
 #include "structs.h"
 
+#define uint int
+
 extern void blit_colorkey(SDL_Surface *des, SDL_Surface *src, SDL_Rect *srcrect, SDL_Rect *desrect);
 
 void movejean (struct hero *jean, Mix_Chunk *fx[]) {

@@ -9,6 +9,8 @@
 
 #include "structs.h"
 
+#define uint int
+
 extern unsigned int _binary_graphics_tiles_png_start;
 extern unsigned int _binary_graphics_tiles_png_end;
 extern unsigned int _binary_graphics_fonts_png_start;

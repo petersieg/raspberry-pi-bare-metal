@@ -5,6 +5,8 @@
 #include "SDL.h"
 #include "SDL_mixer.h"
 
+#define uint int
+
 extern unsigned int _binary_data_map_txt_start;
 extern unsigned int _binary_data_map_txt_end;
 extern unsigned int _binary_data_enemies_txt_start;

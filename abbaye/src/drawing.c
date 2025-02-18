@@ -10,6 +10,8 @@
 
 #include "structs.h"
 
+#define uint int
+
 void blit(SDL_Surface *des, SDL_Surface *src, SDL_Rect *srcrect, SDL_Rect *desrect) {
     blit_info info;
 
